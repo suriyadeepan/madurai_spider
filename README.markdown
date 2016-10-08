@@ -27,4 +27,4 @@ scrapy crawl mad_doc_spider
 
 * *What next?*
 
-I plan to build a toy semantic search engine by first constructing *tamil word embeddings*, then encoding all the documents into fixed length vectors in a high dimensional space. Build an index (n-dimensional) based on the encodings. When the user enters a query in tamil, it is encoded into a fixed length vector (n-dimensional) and a beam search is performed to identify neighboring vectors that represent html documents. This ensures a *strong* semantic similarity between the query and the results.
+I plan to build a toy semantic search engine by first constructing *tamil word embeddings*, then encoding all the documents into fixed length vectors in a high dimensional space. Build an index (mxn-dimensional) based on the encodings. When the user enters a query in tamil, it is encoded into a fixed length vector (n-dimensional) and a beam search is performed to identify neighboring vectors that represent html documents. This ensures a *strong* semantic similarity between the query and the results.
